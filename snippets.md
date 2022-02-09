@@ -27,7 +27,7 @@ const domain : 'jitsi.xxxxxx.it';
 [config file](https://github.com/jitsi/jitsi-meet/blob/master/config.js)
 
 ```
-options : {
+const options : {
         roomName: false,
         width: "100%",
         height: 500,
@@ -60,6 +60,8 @@ video.executeCommand('stopRecording','file');
 # CHIUSURA CHIAMATA
 ```
 video.disconnect(); 
+```
 or
+```
 video.dispose();
 ```
