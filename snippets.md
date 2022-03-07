@@ -65,3 +65,14 @@ or
 ```
 video.dispose();
 ```
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+# CREAZIONI UTENTI
+```
+sudo prosodyctl register UTENTE path.del.dominio.it  PASSWORD
+```
+# RIAVVIO DI TUTTI I SERVIZI
+```
+sudo reboot -h
+```
